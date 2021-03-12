@@ -7,12 +7,15 @@ export default function Home() {
         <title>Next Intro</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <main>
+        {/*SEO Optimization*/}
+        <meta name="keywords" content="wen development, programming"/>
+      </Head>
+
+      <main>
           <section>
             <h1>Test</h1>
           </section>
         </main>
-      </Head>
     </div>
   )
 }
